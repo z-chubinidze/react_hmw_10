@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.mein-cont {
+    width: 40%;
+    text-align: center;
+    margin-top: 48px;
+}
+
+p {
+    margin-bottom: 0;
+    color: #FFF;
+    border: 1px solid #FFF !important;
+    padding: 5px;
+}
+
+thead{
+    color:#FFF;
+}
+thead th{
+    border: 3px solid #FFF ;
+}
+th{
+    border: 3px solid #FFF;
+     color: #FFF;
+     padding: 10px;
+}
+tbody td{
+border: 3px solid #FFF;
+    color: #FFF;
+}
